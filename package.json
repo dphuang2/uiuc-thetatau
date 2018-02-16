@@ -1,13 +1,12 @@
 {
-  "name": "browser-sync-jekyll",
+  "name": "kappathetatau",
   "version": "0.0.0",
-  "description": "A starter project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
+  "description": "kappa theta tau main website",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shane Osbourne",
-  "license": "ISC",
+  "author": "Dylan Huang",
   "devDependencies": {
     "gulp": "^3.8.8",
     "gulp-sass": "^2.1.0",
@@ -24,8 +23,5 @@
     "sass",
     "browsersync"
   ],
-  "bugs": {
-    "url": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync/issues"
-  },
   "homepage": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync"
 }

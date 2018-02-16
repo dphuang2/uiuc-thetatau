@@ -58,11 +58,9 @@ a:visited {
 /*
 /*****************************************************************************/
 .site {
-  font-size: 115%;
   text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em; }
+  height: 100%;
+  width: 100%; }
 
 .header a {
   font-weight: bold;
@@ -104,7 +102,7 @@ a:visited {
 
 .footer .rss {
   margin-top: 1.1em;
-  margin-right: -0.2em;
+  margin-right: -.2em;
   float: right; }
 
 .footer .rss img {
@@ -119,7 +117,7 @@ a:visited {
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
-  padding: 0 0.4em; }
+  padding: 0 .4em; }
 
 .post ul, .post ol {
   margin-left: 1.35em; }
@@ -127,7 +125,7 @@ a:visited {
 .post code {
   border: 1px solid #ddd;
   background-color: #eef;
-  padding: 0 0.2em; }
+  padding: 0 .2em; }
 
 .post pre code {
   border: none; }
@@ -140,6 +138,23 @@ a:visited {
 
 .post pre.terminal code {
   background-color: #333; }
+
+#home {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr; }
+
+@media screen and (min-width: 800px) {
+  #home {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; } }
+
+@media screen and (min-width: 1200px) {
+  #home {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; } }
 
 .highlight {
   background: #ffffff; }
