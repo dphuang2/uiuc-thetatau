@@ -1,4 +1,5 @@
 ---
 name: Dylan Huang
-major: Computer Engineering
+major: Bioengineering
+hometown: Palo Alto, California
 ---

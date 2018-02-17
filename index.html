@@ -4,20 +4,13 @@ title: UIUC Theta Tau
 ---
 
 <div id="home">
-    <div id="hero"> <h1> hero </h1> </div>
-    <div id="about"> <p> stuff </p> </div>
-    <div>
-        {% for item in site.brothers %}
-        <h1> {{item.name}} </h1>
-        <p> {{item.major}} </p>
-        {% endfor %}
-    </div>
-    <div id="pledging"> <p> stuff </p> </div>
-    <div id="contact"> <p> stuff </p> </div>
-    <div id="exec"> <p> stuff </p> </div>
-    <ul>
-        {% for post in site.posts %}
-        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-    </ul>
+    {% include header.html %}
+    {% include about.html %}
+    {% include brothers.html %}
+    {% include posts.html %}
+    {% include stats.html %}
+    {% include faq.html %}
+    {% include rush.html %}
+    {% include portfolio.html %}
+    {% include contact.html %}
 </div>
